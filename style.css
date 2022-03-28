@@ -63,6 +63,7 @@ label {
 @media screen and (max-width: 700px) {
   .nav {
     margin: 2rem;
+     justify-content: space-between;
   }
   .check {
     display: block;
@@ -307,6 +308,10 @@ p::after {
   grid-template-columns: repeat(1,300px);
   
 }
+.skill-img img{
+  width: 210px;
+  margin-left: 40px;
+}
 }
 
 /*  Experience section */
@@ -447,8 +452,20 @@ section .education-container {
 }
 @media screen and (max-width: 430px) {
   .education {
-    padding: 0 16px;
+    padding: 0 7px;
   }
+.education-paragraph {
+  font-size: 1rem;
+}
+.education-name {
+ font-size: 1.3rem;
+ padding-right: 30px;
+}
+.education-img {
+
+  width: 90px;
+  
+  
 }
 /* footer Section */
 footer {
@@ -513,21 +530,25 @@ input::placeholder {
 @media screen and (max-width: 800px) {
   footer {
     display: grid;
-    grid-template-columns: repeat(1, 370px);
+    grid-template-columns: repeat(1, 190px);
     padding-top: 15px;
   }
+  .contactMe{
+   
+  }
   .form input {
-    width: 150px;
+    width: 110px;
     margin-top: 15px;
   }
   .form #decription {
     padding: 5rem;
-    width: 300px;
+    width: 200px;
   }
   .shapeForm {
     display: grid;
-    grid-template-columns: repeat(2, 160px);
+    grid-template-columns: repeat(2, 115px);
   }
+
   footer img {
     margin-bottom: 50px;
 
@@ -535,5 +556,6 @@ input::placeholder {
   }
   .form form {
     margin-top: 4px;
+
   }
 }
