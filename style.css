@@ -467,6 +467,7 @@ section .education-container {
   
   
 }
+}
 /* footer Section */
 footer {
   display: grid;
@@ -533,9 +534,7 @@ input::placeholder {
     grid-template-columns: repeat(1, 190px);
     padding-top: 15px;
   }
-  .contactMe{
-   
-  }
+
   .form input {
     width: 110px;
     margin-top: 15px;
